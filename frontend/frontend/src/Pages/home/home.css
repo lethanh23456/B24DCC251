@@ -1,0 +1,54 @@
+.clc {
+  max-width: 300px;
+  margin: 50px auto;
+  background: #f0f0f0;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.thanhkq {
+  background: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: right;
+  min-height: 80px;
+}
+
+.thanhkq h2 {
+  margin: 10px 0 0 0;
+  font-size: 32px;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.nutbam button {
+  width: 60px;
+  height: 60px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #e0e0e0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.nutbam button:hover {
+  background: #d0d0d0;
+  transform: translateY(-2px);
+}
+
+.nutbam button.dacbiet {
+  background: #ff9500;
+  color: white;
+}
+
+.nutbam button.dacbiet:hover {
+  background: #e6850e;
+}
