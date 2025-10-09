@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import ColorBox from './ColorBox';
 
 function ColorPicker() {
@@ -17,3 +17,4 @@ function ColorPicker() {
 }
 
 export default ColorPicker;
+
